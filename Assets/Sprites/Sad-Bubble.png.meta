@@ -120,19 +120,19 @@ TextureImporter:
       name: Sad-Bubble_0
       rect:
         serializedVersion: 2
-        x: 436
-        y: 863
-        width: 272
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 429
+        y: 853
+        width: 295
+        height: 269
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.08660457}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71ca1c3da926b144fa1a615390b0629b
-      internalID: 117115683
+      spriteID: c179a71f9cfce9f4ea279c7f1e4a6427
+      internalID: -664298398
       vertices: []
       indices: 
       edges: []
@@ -141,19 +141,19 @@ TextureImporter:
       name: Sad-Bubble_1
       rect:
         serializedVersion: 2
-        x: 394
-        y: 521
-        width: 389
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 396
+        y: 505
+        width: 395
+        height: 322
+      alignment: 9
+      pivot: {x: 0.49159616, y: 0.06702153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 090ca0215f0e7434aa0c7e61523a01ca
-      internalID: 395599210
+      spriteID: 7c930dd5b22e659469ec6c2d5c5d8cb0
+      internalID: 997129963
       vertices: []
       indices: 
       edges: []
@@ -162,19 +162,19 @@ TextureImporter:
       name: Sad-Bubble_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 531
-        width: 171
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 89
+        y: 467
+        width: 279
+        height: 308
+      alignment: 9
+      pivot: {x: 0.6963146, y: 0.86643845}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d4f17d6c2b7f2a4ebee5f551f599999
-      internalID: 1687909910
+      spriteID: b3f08d18d78c9164cbc27d66b990912b
+      internalID: 742745077
       vertices: []
       indices: 
       edges: []
@@ -183,19 +183,19 @@ TextureImporter:
       name: Sad-Bubble_3
       rect:
         serializedVersion: 2
-        x: 957
-        y: 515
-        width: 153
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 821
+        y: 478
+        width: 265
+        height: 332
+      alignment: 9
+      pivot: {x: 0.34341973, y: 0.7699594}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d28c647799994e4f81a63563c1b7bcc
-      internalID: 2005679520
+      spriteID: 3b5f22571a55bce43bce15e86290260f
+      internalID: -1498232049
       vertices: []
       indices: 
       edges: []
@@ -204,19 +204,19 @@ TextureImporter:
       name: Sad-Bubble_4
       rect:
         serializedVersion: 2
-        x: 346
-        y: 267
-        width: 189
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 329
+        y: 259
+        width: 269
+        height: 186
+      alignment: 9
+      pivot: {x: 0.41978914, y: 0.7677015}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f767a2746afb764e8a342ade25607f2
-      internalID: -1781400543
+      spriteID: 04732c11947b2514c88b33a246b0ccc1
+      internalID: -1278404927
       vertices: []
       indices: 
       edges: []
@@ -225,19 +225,19 @@ TextureImporter:
       name: Sad-Bubble_5
       rect:
         serializedVersion: 2
-        x: 683
-        y: 263
-        width: 176
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 655
+        y: 241
+        width: 235
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5070629, y: 0.85566103}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3770301e74351c4abf3c7831791f78c
-      internalID: 1822716284
+      spriteID: 9251f4d633428d44abfaf819bbaee091
+      internalID: 1122328703
       vertices: []
       indices: 
       edges: []
@@ -253,12 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sad-Bubble_0: 117115683
-      Sad-Bubble_1: 395599210
-      Sad-Bubble_2: 1687909910
-      Sad-Bubble_3: 2005679520
-      Sad-Bubble_4: -1781400543
-      Sad-Bubble_5: 1822716284
+      Sad-Bubble_0: -664298398
+      Sad-Bubble_1: 997129963
+      Sad-Bubble_2: 742745077
+      Sad-Bubble_3: -1498232049
+      Sad-Bubble_4: -1278404927
+      Sad-Bubble_5: 1122328703
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

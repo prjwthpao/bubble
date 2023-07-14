@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91f15bfc9ce157e44ac6958ff546c2f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Walk1: {fileID: 21300000, guid: ec2aa88b257abb540b427f379af05a60, type: 3}
+  - WalkLeft: {fileID: 21300000, guid: 3a5ab9802fe17a349aba5a15d5130119, type: 3}
+  - WalkRight: {fileID: 21300000, guid: 98abe110578e65b4994cc786bd9a290a, type: 3}
+  - WalkBack: {fileID: 21300000, guid: 7eae6396c40e2274695f60a4308bf072, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
