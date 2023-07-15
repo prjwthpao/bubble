@@ -149,7 +149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 364120330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbae5e775cd73f04684718e87e11ed1f, type: 3}
+  m_Script: {fileID: 11500000, guid: 115c11c7cc12ff34982312b691116e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &364120332
@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 922631548}
   - component: {fileID: 922631547}
   - component: {fileID: 922631546}
+  - component: {fileID: 922631549}
   m_Layer: 5
   m_Name: avanti
   m_TagString: Untagged
@@ -384,6 +385,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922631544}
   m_CullTransparentMesh: 1
+--- !u!95 &922631549
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922631544}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: af51d8447d7818a4784369bac96dba0d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1263017600
 GameObject:
   m_ObjectHideFlags: 0
