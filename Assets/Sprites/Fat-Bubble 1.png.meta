@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da83e40302452c7488793f32e95bfb0b
+guid: a0cdf8194c645714e8557980c6164c58
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,85 +117,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Side-Bubble_0
+      name: Fat-Bubble 1_0
       rect:
         serializedVersion: 2
-        x: 435
-        y: 888
-        width: 338
-        height: 305
-      alignment: 9
-      pivot: {x: 0.47839373, y: 0.12288318}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 465
+        y: 875
+        width: 268
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6cd3fd9c5c62944abeefbbce934774b
-      internalID: -1410088442
+      spriteID: 6512ffc3ebcc952458af15538fe113a5
+      internalID: 1018952921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Side-Bubble_1
+      name: Fat-Bubble 1_1
       rect:
         serializedVersion: 2
-        x: 366
-        y: 515
-        width: 456
-        height: 343
-      alignment: 9
-      pivot: {x: 0.49999988, y: 0.06352923}
+        x: 391
+        y: 521
+        width: 386
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2798774b6bb7db3458f7800f8db66c9c
-      internalID: 2074883949
+      spriteID: 8b05cfba7dc24884f89c6bcbc45c54df
+      internalID: -646710896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Side-Bubble_2
+      name: Fat-Bubble 1_2
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 665
-        width: 179
-        height: 248
-      alignment: 9
-      pivot: {x: 0.45920193, y: 0.91962284}
+        x: 117
+        y: 551
+        width: 174
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ce20bd10f7f6764aa15403879e73779
-      internalID: 2041620351
+      spriteID: 843e5599fd6902f4991cc5782543e71e
+      internalID: -502295368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Side-Bubble_3
+      name: Fat-Bubble 1_3
       rect:
         serializedVersion: 2
-        x: 439
-        y: 229
-        width: 345
-        height: 248
-      alignment: 9
-      pivot: {x: 0.43649656, y: 0.7871105}
+        x: 891
+        y: 558
+        width: 154
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75eacde8f9d01a94e85f5d44e10acd40
-      internalID: 984884604
+      spriteID: 1ae752c120699e947b8e2e3cfb1866d6
+      internalID: -1826290309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat-Bubble 1_4
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 259
+        width: 175
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72539d2da434d49a622c43baa5b0da
+      internalID: 1036665564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat-Bubble 1_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 269
+        width: 197
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e9e37d798725439c6364b49c38d1e
+      internalID: -1248911656
       vertices: []
       indices: 
       edges: []
@@ -211,10 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Side-Bubble_0: -1410088442
-      Side-Bubble_1: 2074883949
-      Side-Bubble_2: 2041620351
-      Side-Bubble_3: 984884604
+      Fat-Bubble 1_0: 1018952921
+      Fat-Bubble 1_1: -646710896
+      Fat-Bubble 1_2: -502295368
+      Fat-Bubble 1_3: -1826290309
+      Fat-Bubble 1_4: 1036665564
+      Fat-Bubble 1_5: -1248911656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
