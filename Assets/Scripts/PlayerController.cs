@@ -12,8 +12,10 @@ public class PlayerController : MonoBehaviour
     public Sprite WalkRight;
     public Sprite WalkBack;
 
-
     private SpriteRenderer spriteRenderer;
+    private bool canMove = true;
+
+    public Joystick joystick;
 
     void Start()
     {
@@ -22,28 +24,48 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
-  
+        if (canMove)
+        {
+            Vector3 movement = new Vector3(joystick.Horizontal, joystick.Vertical, 0f);
 
-        if (movement.x < 0)
-        {
-            spriteRenderer.sprite = WalkLeft;
-            transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-        }
-        else if (movement.x > 0)
-        {
-            spriteRenderer.sprite = WalkRight;
-            transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-        }
-        else if (movement.y > 0)
-        {
-            spriteRenderer.sprite = WalkBack;
-        }
-        else if (movement.y < 0)
-        {
-            spriteRenderer.sprite = Walk1;
-        }
+            // Calcola il valore assoluto del movimento lungo gli assi orizzontali e verticali
+            float absHorizontal = Mathf.Abs(movement.x);
+            float absVertical = Mathf.Abs(movement.y);
 
-        transform.position += movement * speed * Time.deltaTime;
+            // Se il movimento è principalmente orizzontale, controlla la direzione destra/sinistra
+            if (absHorizontal > absVertical)
+            {
+                if (movement.x < 0)
+                {
+                    spriteRenderer.sprite = WalkLeft;
+                    transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+                }
+                else if (movement.x > 0)
+                {
+                    spriteRenderer.sprite = WalkRight;
+                    transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+                }
+            }
+            // Altrimenti, controlla la direzione sopra/sotto
+            else
+            {
+                if (movement.y > 0)
+                {
+                    spriteRenderer.sprite = WalkBack;
+                }
+                else if (movement.y < 0)
+                {
+                    spriteRenderer.sprite = Walk1;
+                }
+            }
+
+            transform.position += movement * speed * Time.deltaTime;
+        }
+    }
+
+    // Metodo pubblico per consentire di disabilitare o riabilitare il movimento del personaggio.
+    public void SetCanMove(bool canMove)
+    {
+        this.canMove = canMove;
     }
 }
