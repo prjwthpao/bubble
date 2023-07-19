@@ -1745,7 +1745,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 948826811}
         m_TargetAssemblyTypeName: Scene, Assembly-CSharp
-        m_MethodName: LoadMenu
+        m_MethodName: LoadPrevScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
