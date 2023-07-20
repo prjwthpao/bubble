@@ -13,7 +13,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Start()
     {
-        // Assicurati che il pannello delle impostazioni sia disattivato all'avvio del gioco
+        // Assicurati che il pannello di pausa sia disattivato all'avvio del gioco.
         pausePanel.SetActive(false);
     }
 
@@ -23,18 +23,28 @@ public class PauseMenu : MonoBehaviour
 
         if (isPauseOpen)
         {
-            // Se il menu è stato appena aperto, disabilita il movimento del personaggio.
+            // Se il menu di pausa è stato appena aperto, disabilita il movimento del personaggio.
             playerController.SetCanMove(false);
             // Salva lo stato del gioco
             SaveGame();
         }
         else
         {
-            // Se il menu è stato chiuso, riabilita il movimento del personaggio.
+            // Se il menu di pausa è stato chiuso, riabilita il movimento del personaggio.
             playerController.SetCanMove(true);
         }
 
         pausePanel.SetActive(isPauseOpen);
+    }
+
+    public void SetPauseOpen(bool isOpen)
+    {
+        isPauseOpen = isOpen;
+    }
+
+    public bool IsPauseOpen()
+    {
+        return isPauseOpen;
     }
 
     private void SaveGame()

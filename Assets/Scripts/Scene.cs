@@ -38,20 +38,4 @@ public class Scene : MonoBehaviour
     public void LoadMenu(){
       SceneManager.LoadScene("Menu");
     }
-
-    public void LoadExit(){
-      SceneManager.LoadScene("Exit");
-    }
-
-    public void LoadRegister(){
-      SceneManager.LoadScene("Register");
-    }
-
-    public void LoadForgotten(){
-      SceneManager.LoadScene("Forgotten password");
-    }
-
-    public void LoadSetting(){
-      SceneManager.LoadScene("Setting");
-    }
 }
