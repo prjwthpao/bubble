@@ -12,6 +12,13 @@ public class AudioManager : MonoBehaviour
         get { return instance; }
     }
 
+    // Proprietà per ottenere e impostare il volume della musica
+    public float MusicVolume
+    {
+        get { return musicSource.volume; }
+        set { musicSource.volume = value; }
+    }
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -38,5 +45,11 @@ public class AudioManager : MonoBehaviour
     public void StopMusic()
     {
         musicSource.Stop();
+    }
+
+    // Funzione per impostare il volume della musica
+    public void SetMusicVolume(float volume)
+    {
+        musicSource.volume = volume;
     }
 }

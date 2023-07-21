@@ -5,26 +5,33 @@ public class SettingsMenu : MonoBehaviour
 {
     public GameObject settingsPanel;
     public Slider musicVolumeSlider;
+    public Slider soundVolumeSlider; // Aggiungi questo campo per lo slider del volume del suono
     public MusicManager musicManager;
-    public PlayerController playerController; // Riferimento al componente PlayerController del personaggio.
+    public ItemCollector itemCollector; // Riferimento al componente ItemCollector del personaggio.
+    public PlayerController playerController;
 
     private bool isSettingsOpen = false;
 
     private void Start()
     {
-        // Assicurati che il pannello delle impostazioni sia disattivato all'avvio del gioco.
         settingsPanel.SetActive(false);
 
-        // Controlla se è presente un valore salvato per il volume della musica.
         if (PlayerPrefs.HasKey("MusicVolume"))
         {
-            float savedVolume = PlayerPrefs.GetFloat("MusicVolume");
-            musicVolumeSlider.value = savedVolume;
-            musicManager.UpdateMusicVolume(savedVolume);
+            float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume");
+            musicVolumeSlider.value = savedMusicVolume;
+            musicManager.UpdateMusicVolume(savedMusicVolume);
         }
 
-        // Aggiungi un listener per l'evento OnValueChanged dello slider.
+        if (PlayerPrefs.HasKey("SoundVolume"))
+        {
+            float savedSoundVolume = PlayerPrefs.GetFloat("SoundVolume");
+            soundVolumeSlider.value = savedSoundVolume;
+            itemCollector.UpdateSoundVolume(savedSoundVolume);
+        }
+
         musicVolumeSlider.onValueChanged.AddListener(OnMusicVolumeChanged);
+        soundVolumeSlider.onValueChanged.AddListener(OnSoundVolumeChanged); // Aggiungi questo listener per l'evento OnValueChanged dello slider del suono
     }
 
     public void ToggleSettingsMenu()
@@ -33,12 +40,10 @@ public class SettingsMenu : MonoBehaviour
 
         if (isSettingsOpen)
         {
-            // Se il menu è stato appena aperto, disabilita l'input del movimento del personaggio.
             playerController.SetCanMove(false);
         }
         else
         {
-            // Se il menu è stato chiuso, riabilita l'input del movimento del personaggio.
             playerController.SetCanMove(true);
         }
 
@@ -47,7 +52,11 @@ public class SettingsMenu : MonoBehaviour
 
     public void OnMusicVolumeChanged(float volume)
     {
-        // Invia l'aggiornamento del volume alla classe MusicManager.
         musicManager.UpdateMusicVolume(volume);
+    }
+
+    public void OnSoundVolumeChanged(float volume)
+    {
+        itemCollector.UpdateSoundVolume(volume);
     }
 }

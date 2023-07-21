@@ -5,7 +5,6 @@ using UnityEngine;
 public class PanelManager : MonoBehaviour
 {
   public GameObject menuPanel;
-  public GameObject exitPanel;
   public GameObject settingsPanel;
 
   private GameObject currentPanel;
@@ -15,7 +14,6 @@ public class PanelManager : MonoBehaviour
       // All'avvio, mostriamo solo il pannello di login
       currentPanel = menuPanel;
       menuPanel.SetActive(true);
-      exitPanel.SetActive(false);
       settingsPanel.SetActive(false);
   }
 
@@ -29,11 +27,6 @@ public class PanelManager : MonoBehaviour
 
       // Aggiorna il riferimento al pannello corrente
       currentPanel = panelToShow;
-  }
-
-  public void ShowExitPanel()
-  {
-      ShowPanel(exitPanel);
   }
 
   public void ShowSettingPanel(){
