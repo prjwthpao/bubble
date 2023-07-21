@@ -8,6 +8,7 @@ public class GoalController : MonoBehaviour
     // Numero minimo di amici richiesti
     private int friendsRequired = 3;
     private ItemCollector itemCollector; // Riferimento all'altro script
+    private bool hasWon = false;
 
     private void Start()
     {
@@ -25,13 +26,26 @@ public class GoalController : MonoBehaviour
 
             // Controlla se il giocatore ha collezionato il numero richiesto di amici
             if (collectedFriends >= friendsRequired)
-            { 
+            {
                 // Il giocatore ha raggiunto l'uscita e ha vinto la partita
                 // Esegui le azioni desiderate per la vittoria
                 Debug.Log("Hai vinto la partita!");
+                hasWon = true;
 
                 // Carica la scena "Win"
                 SceneManager.LoadScene("Win");
+            }
+            else
+            {
+                // Il giocatore ha raggiunto l'uscita ma non ha collezionato il numero richiesto di amici
+                // Esegui le azioni desiderate per la sconfitta o il GameOver
+                Debug.Log("Game Over!");
+
+                // Carica la scena "GameOver" solo se non ha vinto
+                if (!hasWon)
+                {
+                    SceneManager.LoadScene("GameOver");
+                }
             }
         }
     }
