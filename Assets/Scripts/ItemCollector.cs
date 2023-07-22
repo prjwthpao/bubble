@@ -20,4 +20,5 @@ public class ItemCollector : MonoBehaviour
     {
         return amiciCount;
     }
+
 }
