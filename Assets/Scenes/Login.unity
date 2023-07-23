@@ -592,6 +592,7 @@ GameObject:
   - component: {fileID: 229409383}
   - component: {fileID: 229409385}
   - component: {fileID: 229409384}
+  - component: {fileID: 229409386}
   m_Layer: 5
   m_Name: Register
   m_TagString: Untagged
@@ -661,6 +662,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229409382}
   m_CullTransparentMesh: 1
+--- !u!114 &229409386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229409382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb28bab2f251ad4196144afaff4be0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &290021159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,19 +1497,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 593398799}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 45421025}
-        m_TargetAssemblyTypeName: LoginManager, Assembly-CSharp
-        m_MethodName: ShowForgottenPasswordPanel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &593398799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1682,6 +1683,7 @@ GameObject:
   - component: {fileID: 600948323}
   - component: {fileID: 600948322}
   - component: {fileID: 600948321}
+  - component: {fileID: 600948324}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1774,6 +1776,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &600948324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600948319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb28bab2f251ad4196144afaff4be0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &607636409
 GameObject:
   m_ObjectHideFlags: 0
