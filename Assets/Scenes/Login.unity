@@ -1632,6 +1632,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 593398799}
   m_OnClick:
     m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls:
       - m_Target: {fileID: 45421027}
         m_TargetAssemblyTypeName: LoginManager, Assembly-CSharp
@@ -1645,6 +1646,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+=======
+      m_Calls: []
+>>>>>>> main
 --- !u!114 &593398799
 MonoBehaviour:
   m_ObjectHideFlags: 0
