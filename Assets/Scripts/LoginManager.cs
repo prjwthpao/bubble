@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LoginManager : MonoBehaviour
 {
@@ -35,6 +36,13 @@ public class LoginManager : MonoBehaviour
 
     public void ShowRegisterPanel()
     {
+        // Pulisci i campi di input prima di mostrare il pannello di registrazione
+        TMP_InputField[] inputFields = registerPanel.GetComponentsInChildren<TMP_InputField>();
+        foreach (TMP_InputField inputField in inputFields)
+        {
+            inputField.text = "";
+        }
+
         ShowPanel(registerPanel);
     }
 
@@ -47,7 +55,9 @@ public class LoginManager : MonoBehaviour
     {
         ShowPanel(resetPasswordPanel);
     }
-    public void ShowLoginPanel(){
+
+    public void ShowLoginPanel()
+    {
         ShowPanel(loginPanel);
     }
 }

@@ -1889,7 +1889,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: b75238f3794fbfd4e926435e218af6e1, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -2758,8 +2762,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -2859,8 +2868,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &358146465
 GameObject:
@@ -3936,7 +3950,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &502079250
 GameObject:
@@ -3986,8 +4000,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   m_Material: {fileID: 0}
   m_Color: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
   m_RaycastTarget: 1
@@ -4394,7 +4413,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
+  m_Father: {fileID: 0}
+=======
   m_Father: {fileID: 183600024}
+>>>>>>> main
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4412,8 +4435,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -4619,7 +4647,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &571471368
 GameObject:
@@ -5040,7 +5068,7 @@ Transform:
   m_Children:
   - {fileID: 187364026}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &638148116
 SpriteRenderer:
@@ -5104,8 +5132,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 0
 --- !u!1 &655384030
 GameObject:
@@ -5268,7 +5301,7 @@ RectTransform:
   - {fileID: 1269719655}
   - {fileID: 1243337204}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6091,7 +6124,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: 3505b3c3efd9afc45b489d900b91e07a, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -6542,7 +6579,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: b75238f3794fbfd4e926435e218af6e1, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -6648,8 +6689,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3953a07ee219634ea31769ae2893a55, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   playerHealth: {fileID: 2051867835}
   totalhealthBar: {fileID: 502079252}
   currenthealthBar: {fileID: 339733534}
@@ -6784,8 +6830,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &933772203
 GameObject:
@@ -7053,8 +7104,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -7070,8 +7126,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -7118,7 +7179,11 @@ RectTransform:
   m_Children:
   - {fileID: 864720120}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
+  m_RootOrder: 13
+=======
   m_RootOrder: 12
+>>>>>>> main
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7450,7 +7515,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1024341694
 MonoBehaviour:
@@ -8135,7 +8200,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: 3505b3c3efd9afc45b489d900b91e07a, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -8627,8 +8696,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &1178136158
 GameObject:
@@ -9190,8 +9264,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1001 &1229871526
 PrefabInstance:
@@ -9202,7 +9281,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: 3ad6b4bb88bc9a0499cf235bd0153d03, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -9839,8 +9922,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &1291762919
 GameObject:
@@ -10747,8 +10835,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &1417923472
 GameObject:
@@ -11463,8 +11556,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &1463285414
 GameObject:
@@ -11573,8 +11671,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!4 &1466792013 stripped
 Transform:
@@ -12938,8 +13041,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &1609129304
 GameObject:
@@ -13065,7 +13173,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624388605
 GameObject:
@@ -13161,7 +13269,7 @@ RectTransform:
   m_Children:
   - {fileID: 73487129}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -13362,8 +13470,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &1643928186
 GameObject:
@@ -14899,13 +15012,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776208040}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 427.6667, y: 214, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1784249109
 GameObject:
@@ -15214,7 +15327,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1817411227
 GameObject:
@@ -15726,7 +15839,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: 3ad6b4bb88bc9a0499cf235bd0153d03, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -15793,8 +15910,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &1856395664
 GameObject:
@@ -17132,8 +17254,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &1978315169
 GameObject:
@@ -17674,8 +17801,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &2008948070
 GameObject:
@@ -18170,7 +18302,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2027129289
 MonoBehaviour:
@@ -18194,7 +18326,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465229815113103858, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Sprite
+<<<<<<< HEAD
+      value: 
+=======
       value:
+>>>>>>> main
       objectReference: {fileID: 21300000, guid: b75238f3794fbfd4e926435e218af6e1, type: 3}
     - target: {fileID: 2465229815113103859, guid: f3376c3d5b99164479401b4a1fc092af, type: 3}
       propertyPath: m_Name
@@ -18261,8 +18397,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06dfc3f144e954b438b56035e231f02c, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   damage: 1
 --- !u!1 &2051867825
 GameObject:
@@ -18280,6 +18421,10 @@ GameObject:
   - component: {fileID: 2051867835}
   - component: {fileID: 2051867837}
   - component: {fileID: 2051867836}
+<<<<<<< HEAD
+  - component: {fileID: 2051867838}
+=======
+>>>>>>> main
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Player
@@ -18301,7 +18446,7 @@ Transform:
   m_Children:
   - {fileID: 571471371}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2051867828
 SpriteRenderer:
@@ -18518,8 +18663,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 989c029248f69e341a3de89f2b199bd3, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   startingHealth: 3
 --- !u!114 &2051867836
 MonoBehaviour:
@@ -18531,10 +18681,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22246bd208f4f954fbc2c449fb9a26de, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundAudioSource: {fileID: 2051867838}
+  collectSound: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+--- !u!114 &2051867837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051867825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c3603148295fc41b02f88bd2c4a532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &2051867838
+AudioSource:
+=======
   m_Name:
   m_EditorClassIdentifier:
 --- !u!114 &2051867837
 MonoBehaviour:
+>>>>>>> main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -18719,7 +18890,7 @@ Transform:
   - {fileID: 791280761}
   - {fileID: 1229871527}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2075016732
 GameObject:
@@ -19026,8 +19197,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &2120241476
 GameObject:
@@ -19246,8 +19422,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &2138977077
 GameObject:
@@ -19322,8 +19503,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a49323b46a3a6b54cb417b7d32b61d98, type: 3}
+<<<<<<< HEAD
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Name:
   m_EditorClassIdentifier:
+>>>>>>> main
   healthValue: 1
 --- !u!1 &2146173537
 GameObject:
